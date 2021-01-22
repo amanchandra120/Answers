@@ -1,0 +1,56 @@
+Answer 1.
+
+List_1= [num1, num2, num3, num4,.....]
+Sum(List_1)
+
+Answer 2.
+
+Dict1 = {}
+Dict2 = {}
+Dict3 = {}
+n= int(input("Enter the number of elements you want in Dictionary 1\n"))
+for i in range(1,n+1):
+  Dict1[i]= " name{}".format(i)
+  Dict2[i]= int(input("Enter the value for {} user".format(i)))
+ def largest(g):
+     m=0
+     l=0
+     for key in g:
+         print(g[key])
+         If(g[key]>1):
+            l=g[key]
+            m=key
+     Dict3[m]=1
+     Print(Dict3)
+larget(Dict2)
+
+
+Answer 3.
+
+def find(h):
+     a= 0
+     count= 0
+     for i in h:
+         if(i==1):
+            a=a+1
+         elif(i==0):
+           if(count<a):
+              count=a
+           a=0
+      return(count)
+b=[0,0,0,1,1,1,0,0,0,1,1,0,1,1,1,1,0,0,1,1]
+print(find(b))
+
+Answer 4.
+
+CREATE TABLE User(username varchar(20), 
+                   password varchar(20);
+CRAETE TABLE Address(Street char,
+                     Pincode int,
+                     Country char,
+                     State char,
+                     Phone_number int);
+
+
+
+
